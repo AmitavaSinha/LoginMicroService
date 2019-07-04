@@ -40,9 +40,6 @@
         },
         "omsWorkspaceName": {
             "type": "string"
-        },
-        "httpApplicationRoutingEnabled": {
-            "type": "bool"
         }
     },
     "variables": {
