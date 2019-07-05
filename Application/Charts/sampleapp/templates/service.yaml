@@ -14,8 +14,8 @@ spec:
   type: LoadBalancer
   {{- end }}
   ports:
-    - port: {{ .Values.service.port }}
-      targetPort: {{ .Values.service.port }}
+    - port: 443
+      targetPort: 443
       protocol: TCP
       name: http
   selector:
