@@ -1,7 +1,7 @@
 {{- if .Values.ingress.enabled -}}
 {{- $fullName := include "sampleapp.fullname" . -}}
 {{- $serviceName := include "sampleapp.name" . -}}
-{{- $servicePort := .Values.service.port -}}
+{{- $servicePort := 443 -}}
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
