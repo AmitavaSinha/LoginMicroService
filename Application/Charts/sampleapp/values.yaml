@@ -7,6 +7,9 @@ image:
   repository: nginx
   tag: latest
 
+services:
+  port: 443
+
 ingress:
   enabled: false
   annotations:
